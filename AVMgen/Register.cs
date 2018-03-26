@@ -5,15 +5,15 @@ using System.Text;
 
 namespace AVMgen
 {
-    public enum ValueType
+    public enum ValueType           /* What type of information is stored in the register? */
     {
-        Integer,
+        Integer,                    /* How should the value be interpred from a register stand point */
         Double,
         Character,
         String
     };
 
-    public enum GeneralRegisterType
+    public enum GeneralRegisterType     /* What type of register is it? */
     {
         Accumulator,
         Counter,
